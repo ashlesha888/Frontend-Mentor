@@ -1,0 +1,129 @@
+body{
+    background-color: #f3eae3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 120px;
+   
+}
+.card{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+    width: 600px;
+    height: 450px;
+    margin: 14px;
+    border-radius: 10px;
+
+}
+.photo{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+.details{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.perfume-text{
+    
+ font-family: "Podium Sharp Variable", sans-serif;
+    font-variation-settings: "wght" 900; /* very light weight */
+    letter-spacing: 7px;
+    margin-bottom: 10px;
+    color: hsl(228, 12%, 50%);
+    margin: 0;
+
+}
+.product-name{
+    font-weight: bolder;
+    line-height: 1;
+    font-family: "Fraunces", serif;
+}
+.description{
+     color: hsl(228, 12%, 50%);
+     font-family: Arial, Helvetica, sans-serif;
+     letter-spacing: 1px;
+     line-height: 25px;
+     font-size: 14px;
+     margin: 0;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.current-price {
+font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+    font-size: 35px;
+    color:   hsl(158, 36%, 37%);
+    margin-right: 15px;
+}
+.old-price{
+    font-family: "Fraunces", serif;
+    color: gray;
+  text-decoration: line-through;
+}
+.add-to-cart{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 50px;
+    background-color:   hsl(158, 36%, 37%);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    justify-content: center;display:flex; align-items:center; justify-content:center; gap:8px;
+
+
+}
+.add-to-cart:hover{
+    background-color:hsl(158, 42%, 18%);
+    cursor: pointer;
+    
+}
+@media (max-width: 375px) {
+  body {
+    margin: 20px;
+  }
+
+  .card {
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    content: url("images/image-product-mobile.jpg");
+  }
+
+  .details {
+    width: 100%;         
+    box-sizing: border-box; 
+    padding: 20px;        /* adjust padding */
+  }
+
+  
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }

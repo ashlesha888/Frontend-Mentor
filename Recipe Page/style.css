@@ -1,0 +1,88 @@
+body{
+    background-color: #f3e5d8;
+    font-family:Arial, Helvetica, sans-serif  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card{
+    background-color: white;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.photo-omlette{
+    border-radius: 10px;
+}
+.recipe-name{
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.description{
+    margin-top: 5px;
+    color: #333333;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.preparation-time-box{
+    background-color: #fff7fc;
+    border-radius: 10px;
+    padding: 15px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.heading{
+    color:#75556d;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ingredients{
+    font-size: 17px;
+}
+.ingredients-heading{
+    font-size: 25px;
+    color: #805643;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.ingredients1{
+    font-size: 17px;
+}
+.Instructions{
+    font-size: 25px;
+    color: #805643;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+li{
+    padding-left: 20px;
+}
+.nutrition{
+     font-size: 25px;
+    color: #805643;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.calories{
+    display: flex;
+    justify-content: start;
+}
+.xyz td:nth-child(2) {
+     font-size: 17px;
+    color: #805643;
+    
+    font-weight: bold;
+}
+.xyz td:nth-child(1) {
+  text-indent: 20px; /* shifts only the text */
+}
+
+
