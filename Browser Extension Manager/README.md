@@ -14,16 +14,19 @@ A simple web app to **view, toggle, and remove browser extensions**. Built with 
 ---
 
 ## How to Use
-1. Open `index.html` in your browser.
-2. Click the **switch** to activate/deactivate an extension.
-3. Click **Remove** to hide an extension (refresh restores it).
-4. Use filter buttons to view **all, active, or inactive** extensions.
-5. Toggle **dark mode** from the top right.
+1. Click the **switch** to activate/deactivate an extension.
+2. Click **Remove** to hide an extension (refresh restores it).
+3. Use filter buttons to view **all, active, or inactive** extensions.
+4. Toggle **dark mode** from the top right.
 
 ---
 
 ## Technologies
 - HTML, CSS, JavaScript
+
+---
+## Screenshots
+
 
 ---
 
