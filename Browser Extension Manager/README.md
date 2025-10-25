@@ -4,6 +4,11 @@ A simple web app to **view, toggle, and remove browser extensions**. Built with 
 
 ---
 
+## Demo
+[View live demo on Netlify](https://browser-extension-manager-1755.netlify.app/)
+
+---
+
 ## Features
 - Toggle extensions **on/off** with a switch.
 - Remove extensions with a smooth **fade + shrink animation**.
@@ -41,6 +46,5 @@ A simple web app to **view, toggle, and remove browser extensions**. Built with 
 
 ---
 
-## Demo
-[View live demo on Netlify](https://browser-extension-manager-1755.netlify.app/)
+
 
