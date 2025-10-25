@@ -26,6 +26,10 @@ A simple web app to **view, toggle, and remove browser extensions**. Built with 
 
 ---
 ## Screenshots
+<img src="images/screenshot.png" alt="Browser Extension Manager Screenshot" width="600">
+<img src="images/screenshot.png" alt="Browser Extension Manager Screenshot" width="600">
+<img src="images/screenshot.png" alt="Browser Extension Manager Screenshot" width="600">
+<img src="images/screenshot.png" alt="Browser Extension Manager Screenshot" width="600">
 
 
 ---
