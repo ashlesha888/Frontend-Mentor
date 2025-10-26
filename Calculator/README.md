@@ -15,7 +15,7 @@ A simple **web-based calculator** built with **HTML, CSS, and JavaScript** that 
 
 ## Demo
 
-You can view the live project here: [Calculator Demo](https://ashlesha888.github.io/Calculator/)
+You can view the live project here: [Calculator Demo](https://calculator-1849.netlify.app/)
 
 ## Screenshot
 <img src="images/calculator.png" alt="Calculator Screenshot" width="300">
